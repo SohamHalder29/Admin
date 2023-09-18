@@ -3,8 +3,8 @@ import "./sidebar1.scss";
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import ProductionQuantityLimitsOutlinedIcon from '@mui/icons-material/ProductionQuantityLimitsOutlined';
-import BorderColorSharpIcon from '@mui/icons-material/BorderColorSharp';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
+import PropaneOutlinedIcon from '@mui/icons-material/PropaneOutlined';
 import StackedLineChartIcon from '@mui/icons-material/StackedLineChart';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import SettingsSystemDaydreamIcon from '@mui/icons-material/SettingsSystemDaydream';
@@ -44,18 +44,20 @@ function Sidebar() {
             <Link  to="/products"  style={{textDecoration:"none"}}>
             <li> 
             <ProductionQuantityLimitsOutlinedIcon/>
-            <span>Products</span>
+            <span>Activity</span>
             </li>
             </Link>
+           
             <li> 
-            <BorderColorSharpIcon/>
-            <span>Orders</span>
-            </li>
-            <li> 
-            <LocalShippingIcon/>
-            <span>Delivery</span>
+            <PropaneOutlinedIcon/>
+            <span>Projects</span>
             </li>
             
+            <li>
+            <CalendarMonthOutlinedIcon/>
+              <span>Calender</span>
+            </li>
+
             <p className="title">USEFUL</p>
             <li> 
             <StackedLineChartIcon/>

@@ -62,7 +62,7 @@ const Single = () => {
         </div>
 
         <div className='bottom'>
-        <h1 className='title'>Last Transaction</h1>
+        <h1 className='title'>Last Projects work</h1>
           <List/>
         </div>
       </div>

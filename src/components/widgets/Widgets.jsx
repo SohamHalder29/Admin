@@ -5,16 +5,17 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import MonitorOutlinedIcon from '@mui/icons-material/MonitorOutlined';
 import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
-import { colors} from '@mui/material';
+
 const Widgets = ({type}) => {
 
   let data;
 //temporary
  
- const amount=100;
- const diff=20;
+ 
+ const diff=1;
 
   switch(type)
+
   {
     case "user":
       data={
@@ -22,12 +23,12 @@ const Widgets = ({type}) => {
         isMonkey:false,
         link:"See all users",
         icon:<PersonOutlineOutlinedIcon className='icon' style={{color:"crimson",
-        backgroundColor: "rgba(255,0,0.2) "}} />,
+        backgroundColor: "rgba(255,0,0.2) "}} /> ,
       };
       break;
       case "order":
       data={
-        title:"ORDERS",
+        title:"PROJECTS",
         isMonkey:false,
         link:"view all orders",
         icon:<ShoppingCartOutlinedIcon className='icon' style={{backgroundColor:"yellow",  cursor:"pointer"}} />,
@@ -35,7 +36,7 @@ const Widgets = ({type}) => {
       break;
       case "earning":
       data={
-        title:"EARNING",
+        title:"DOCUMENTS",
         isMonkey:true,
         link:"View net earnings",
         icon:<MonitorOutlinedIcon className='icon' style={{backgroundColor:"lightgreen" }} />,
@@ -43,12 +44,15 @@ const Widgets = ({type}) => {
       break;
       case "balance":
       data={
-        title:"BALANCE",
+        title:"STASTICS",
         isMonkey:true,
         link:"See details",
         icon:<AccountBalanceWalletOutlinedIcon className='icon' style={{backgroundColor:"green", color:"white"}}/>,
       };
-        
+       break;
+       default:
+        break;
+    
   }
    
 
@@ -56,7 +60,7 @@ const Widgets = ({type}) => {
     <div className='widget'>
 <div className='left'>
     <span className='title'>{data.title}</span>
-    <span className='counter'>{data.isMonkey && "$"} {amount} </span>
+    <span className='counter'>{data.isMonkey && "@"}  </span>
     <span className='link'>See all users</span>
 </div>
 <div className='right'>

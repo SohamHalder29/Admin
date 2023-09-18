@@ -11,7 +11,7 @@ import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
 function Navbar() {
 
   return (
-    <div className="navbar">Navbar
+    <div className="navbar"><h2>Adminboard</h2>
     <div className="wrapper">
       <div className='search'>
         <input type="text" placeholder='Search..' />

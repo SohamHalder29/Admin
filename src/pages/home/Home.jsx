@@ -23,11 +23,11 @@ function Home() {
 
 <div className='charts'>
   <Featured/>
-  <Chart title="Last 6 months (Revenue)" aspect={2} />
+  <Chart title="Last 6 months (Project task)" aspect={2} />
 </div>
 
 <div className='listContainer'>
-  <div className='listTitle'>Latest Transactions</div>
+  <div className='listTitle'>Project schedule</div>
   
   <Table/>
 </div>
