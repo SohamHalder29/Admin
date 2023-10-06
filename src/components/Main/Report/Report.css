@@ -1,0 +1,68 @@
+
+.Report-Box{
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid #fff;
+    position: relative;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgb(0, 85, 255), rgb(32, 108, 221), rgb(40, 0, 198));
+    box-shadow: 2px 0 10px white;
+    margin-left: 4rem;   
+}
+
+.Report-Field{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2.5%;
+    top: 5%;
+    width: 40%;
+    height: 90%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 2px 0 10px white;
+}
+
+.Report-Hide{
+    display: none;
+}
+
+.Report-Input{
+    margin-left: 2.5rem;
+    width: 80%;
+    border-radius: 10px;
+    border: transparent;
+    height: 8%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px 0 0 2.5rem;
+    align-self:baseline;
+}
+
+.Report-Send-Btn{
+
+    text-align:center;
+    font-size: 30px;
+    font-weight:900;
+    color: #fff;
+    background-color: blue;
+    width: 60%;
+    height: 10%;
+    border-radius: 10px;
+    border: transparent;
+    margin: 1.5rem 5rem;
+}
+
+.Report-Box h1{
+    font-size: 20vh;
+    color: #fff;
+    position: relative;
+    top: 30vh;
+    left: 20vw;
+}

@@ -1,0 +1,52 @@
+.Header-Wrapper{
+    background-color: transparent;
+    color: white;
+    position:sticky;
+    filter: blur(10);
+}
+
+.Header-Container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    color: var(--Secondary);
+    padding: 0.5rem;
+}
+
+.Nav-Menu{
+    gap: 2.5rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.Nav-Menu>*:hover{
+    cursor: pointer;
+}
+
+.Nav-Menu a{
+    transition: all 100ms ease-in;
+}
+
+.Nav-Menu a:hover{
+    color: rgb(144, 236, 236);
+}
+
+.Sign-Menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.SignBtn{
+    font-weight: 600;
+    padding: 0.7rem 1.4rem;
+    color: white;
+    background: linear-gradient(45deg, rgb(74, 136, 230), rgba(0, 57, 246, 0.914), rgb(41, 0, 189));
+    border-radius: 10px;
+    border: none;
+    transition: all 300ms ease-in;
+}
+
+.SignBtn:hover{
+    transform: scale(1.1);
+}

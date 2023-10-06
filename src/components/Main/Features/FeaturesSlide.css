@@ -1,0 +1,25 @@
+.Slide-box{
+
+}
+.Slides{
+    width: 100%;
+    padding: 2rem;
+}
+
+.Review-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Review-title{
+    color: rgb(219, 142, 26);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.Review-Dep{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 800;
+}

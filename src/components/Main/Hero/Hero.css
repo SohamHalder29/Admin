@@ -1,0 +1,105 @@
+.Hero-Wrapper{
+    color: white;
+}
+
+.Hero-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+    padding: 2rem;
+}
+
+.Image-Container{
+    width: 65rem;
+    height: 40rem;
+}
+
+.Image-Container img{
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    filter:opacity(0.6);
+    border-radius: 5px;
+}
+
+
+
+.Hero-Left{
+    gap: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-Title{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.Title-effect{
+    height: 16rem;
+    width: 16rem;
+    background-color: rgba(255, 247, 0, 0.493);
+    border-radius: 999px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    filter: blur(20px);
+}
+
+.Hero-Title>h1{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.Hero-Title h3{
+    width: 90% ;
+}
+.Hero-SignIn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 60%;
+}
+
+.Hero-SignIn>input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: var(--black);
+    font-weight: 500;
+    width: 50%;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.mailBtn{
+    font-weight: 600;
+  padding: 0.7rem 1.4rem;
+  color: white;
+  background: linear-gradient(45deg, rgb(74, 136, 230), rgba(0, 57, 246, 0.914), rgb(41, 0, 189));
+  border-radius: 10px;
+  border: none;
+  transition: all 300ms ease-in;
+}
+
+.mailBtn>a{
+    font-size: 1.5rem;
+}
+
+.mailBtn:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
